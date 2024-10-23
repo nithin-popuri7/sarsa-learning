@@ -50,8 +50,8 @@ The agent receives a reward of +1 for reaching the goal state (G). The agent rec
 
 ## SARSA LEARNING FUNCTION
 ```
-### Name:P Siva Naga Nithin
-### Register Number:212221240037
+ Name:P Siva Naga Nithin
+ Register Number:212221240037
 ```
 ```python
 def sarsa(env, gamma=1.0, init_alpha=0.5, min_alpha=0.01, alpha_decay_ratio=0.5,
@@ -82,10 +82,23 @@ def sarsa(env, gamma=1.0, init_alpha=0.5, min_alpha=0.01, alpha_decay_ratio=0.5,
 ```
 
 ## OUTPUT:
-Mention the optimal policy, optimal value function , success rate for the optimal policy.
+### Optimal Policy:
+![ex6](https://github.com/user-attachments/assets/a9e2674c-bbb5-4b77-8544-46785658c6cf)
 
-Include plot comparing the state value functions of Monte Carlo method and SARSA learning.
+### First Visit Monte Carlo Method:
+![ex6 1](https://github.com/user-attachments/assets/cfaeeef0-88ea-4d51-8e84-f8a8dca7ab73)
+
+### SARSA Learning Algorithm:
+![ex6 2](https://github.com/user-attachments/assets/cdcd7e9d-e8cd-4d02-ada8-1b4d882bd3ca)
+
+### Plot for State Value Function - Monte Carlo:
+![ex6 3](https://github.com/user-attachments/assets/e000ba7b-185f-40ec-8765-799a326a0b57)
+
+### Plot for State Value Function - SARSA Learning:
+![ex6 4](https://github.com/user-attachments/assets/0cafb657-1333-4280-a080-374a9b068540)
+
 
 ## RESULT:
+Thus, the implementation of SARSA learning algorithm was implemented successfully.
 
-Write your result here
+
